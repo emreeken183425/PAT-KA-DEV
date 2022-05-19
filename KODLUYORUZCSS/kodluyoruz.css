@@ -1,0 +1,58 @@
+/* açıklama satırı u şekilde yapılır */
+
+/*  css selectors  */
+
+/*  * bu işaretle bütün herşeye hükmedilir*/
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+ol *{
+    color: ;
+}
+
+.emre {
+    color: black;
+}
+
+body {
+    background-color: blue;
+    color: red;
+}
+
+p {
+    color: black;
+    font-size: 25px;
+}
+
+
+h2 {
+    color: red;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: white;
+    font-size: 60px;
+    text-align: right;
+    text-decoration: black;
+    font-size: 40px;
+}
+
+li:nth-child(2) {
+    color: palegreen;
+}
+li:nth-child(4) {
+    color:papayawhip;
+}
+/* odd tekleri değiştirir*/
+li:nth-child(odd){
+    color: coral;
+}
+/*even çifleri değiştiri*/
+ li:nth-child(even){
+     color: black;
+ }

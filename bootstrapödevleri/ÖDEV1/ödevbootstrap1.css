@@ -1,0 +1,19 @@
+.navbar{
+    width: 100%;
+    background-color: black;
+}
+
+.listem li {
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+.jumbotron{
+    width: 100%;
+}
+.ürünler{
+    display: inline-block;
+   margin-left:45%
+}

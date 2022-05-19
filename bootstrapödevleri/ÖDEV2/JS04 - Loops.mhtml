@@ -1,0 +1,975 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/javascript/class-notes/js04_loops/index.html
+Subject: JS04 - Loops
+Date: Tue, 10 May 2022 18:56:47 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--e7MTsUS0JP6L84TcKVrHi3xpVmheCGoGaav0oMrIrW----"
+
+
+------MultipartBoundary--e7MTsUS0JP6L84TcKVrHi3xpVmheCGoGaav0oMrIrW----
+Content-Type: text/html
+Content-ID: <frame-4D36E1C3A1E8802B5ABBE50CD59FBBE8@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/javascript/class-notes/js04_loops/index.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-d6b5a7b0-ef71-4179-bf11-7dad479f150f@mhtml.blink" />
+   =20
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>JS04 - Loops</title>
+
+
+    <link rel=3D"stylesheet" href=3D"http://127.0.0.1:5500/javascript/class=
+-notes/js04_loops/style.css">
+</head>
+
+<body>
+    <header>
+        <img src=3D"https://clarusway.com/wp-content/uploads/2021/06/CLARUS=
+WAY_LOGO.png" alt=3D"Clarusway">
+
+        <h2>JavaScript Basics</h2>
+        <h4>JS04 - Loops</h4>
+       =20
+    </header>
+<!-- Code injected by live-server -->
+
+
+</body><editor-card style=3D"position:absolute;top:0px;left:0px;z-index:aut=
+o;display: block !important"><div dir=3D"ltr" style=3D"all: initial;"><div =
+style=3D"color: initial; font: initial; font-feature-settings: initial; fon=
+t-kerning: initial; font-optical-sizing: initial; font-palette: initial; fo=
+nt-synthesis: initial; font-variation-settings: initial; forced-color-adjus=
+t: initial; text-orientation: initial; text-rendering: initial; -webkit-fon=
+t-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: in=
+itial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial;=
+ accent-color: initial; place-content: initial; place-items: initial; place=
+-self: initial; alignment-baseline: initial; animation: initial; app-region=
+: initial; appearance: initial; aspect-ratio: initial; backdrop-filter: ini=
+tial; backface-visibility: initial; background: initial; background-blend-m=
+ode: initial; baseline-shift: initial; block-size: initial; border-block: i=
+nitial; border: initial; border-radius: initial; border-collapse: initial; =
+border-end-end-radius: initial; border-end-start-radius: initial; border-in=
+line: initial; border-start-end-radius: initial; border-start-start-radius:=
+ initial; bottom: 0px; box-shadow: initial; box-sizing: initial; break-afte=
+r: initial; break-before: initial; break-inside: initial; buffered-renderin=
+g: initial; caption-side: initial; caret-color: initial; clear: initial; cl=
+ip: initial; clip-path: initial; clip-rule: initial; color-interpolation: i=
+nitial; color-interpolation-filters: initial; color-rendering: initial; col=
+or-scheme: initial; columns: initial; column-fill: initial; gap: initial; c=
+olumn-rule: initial; column-span: initial; contain: initial; contain-intrin=
+sic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic=
+-inline-size: initial; content: initial; content-visibility: initial; count=
+er-increment: initial; counter-reset: initial; counter-set: initial; cursor=
+: initial; cx: initial; cy: initial; d: initial; display: flex; dominant-ba=
+seline: initial; empty-cells: initial; fill: initial; fill-opacity: initial=
+; fill-rule: initial; filter: initial; flex: initial; flex-flow: column-rev=
+erse; float: initial; flood-color: initial; flood-opacity: initial; grid: i=
+nitial; grid-area: initial; height: initial; hyphens: initial; image-orient=
+ation: initial; image-rendering: initial; inline-size: initial; inset-block=
+: initial; inset-inline: initial; isolation: initial; left: initial; letter=
+-spacing: initial; lighting-color: initial; line-break: initial; list-style=
+: initial; margin-block: initial; margin: 1em; margin-inline: initial; mark=
+er: initial; mask: initial; mask-type: initial; max-block-size: initial; ma=
+x-height: initial; max-inline-size: initial; max-width: initial; min-block-=
+size: initial; min-height: initial; min-inline-size: initial; min-width: in=
+itial; mix-blend-mode: initial; object-fit: initial; object-position: initi=
+al; offset: initial; opacity: initial; order: initial; origin-trial-test-pr=
+operty: initial; orphans: initial; outline: initial; outline-offset: initia=
+l; overflow-anchor: initial; overflow-clip-margin: initial; overflow-wrap: =
+initial; overflow: initial; overscroll-behavior-block: initial; overscroll-=
+behavior-inline: initial; overscroll-behavior: initial; padding-block: init=
+ial; padding: initial; padding-inline: initial; page: initial; page-orienta=
+tion: initial; paint-order: initial; perspective: initial; perspective-orig=
+in: initial; pointer-events: initial; position: fixed; quotes: initial; r: =
+initial; resize: initial; right: 0px; ruby-position: initial; rx: initial; =
+ry: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll=
+-margin: initial; scroll-margin-inline: initial; scroll-padding-block: init=
+ial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-a=
+lign: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scroll=
+bar-gutter: initial; shape-image-threshold: initial; shape-margin: initial;=
+ shape-outside: initial; shape-rendering: initial; size: initial; speak: in=
+itial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-=
+dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; st=
+roke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial=
+; stroke-width: initial; tab-size: initial; table-layout: initial; text-ali=
+gn: initial; text-align-last: initial; text-anchor: initial; text-combine-u=
+pright: initial; text-decoration: initial; text-decoration-skip-ink: initia=
+l; text-emphasis: initial; text-emphasis-position: initial; text-indent: in=
+itial; text-overflow: initial; text-shadow: initial; text-size-adjust: init=
+ial; text-transform: initial; text-underline-offset: initial; text-underlin=
+e-position: initial; top: initial; touch-action: initial; transform: initia=
+l; transform-box: initial; transform-origin: initial; transform-style: init=
+ial; transition: initial; user-select: initial; vector-effect: initial; ver=
+tical-align: initial; visibility: initial; border-spacing: initial; -webkit=
+-border-image: initial; -webkit-box-align: initial; -webkit-box-decoration-=
+break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; =
+-webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-bo=
+x-pack: initial; -webkit-box-reflect: initial; -webkit-highlight: initial; =
+-webkit-hyphenate-character: initial; -webkit-line-break: initial; -webkit-=
+line-clamp: initial; -webkit-mask-box-image: initial; -webkit-mask: initial=
+; -webkit-mask-composite: initial; -webkit-perspective-origin-x: initial; -=
+webkit-perspective-origin-y: initial; -webkit-print-color-adjust: initial; =
+-webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-=
+highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decor=
+ations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-s=
+ecurity: initial; -webkit-text-stroke: initial; -webkit-transform-origin-x:=
+ initial; -webkit-transform-origin-y: initial; -webkit-transform-origin-z: =
+initial; -webkit-user-drag: initial; -webkit-user-modify: initial; white-sp=
+ace: initial; widows: initial; width: initial; will-change: initial; word-b=
+reak: initial; word-spacing: initial; x: initial; y: initial; z-index: 2147=
+483647;"></div><div style=3D"color: initial; font: initial; font-feature-se=
+ttings: initial; font-kerning: initial; font-optical-sizing: initial; font-=
+palette: initial; font-synthesis: initial; font-variation-settings: initial=
+; forced-color-adjust: initial; text-orientation: initial; text-rendering: =
+initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-=
+text-orientation: initial; -webkit-writing-mode: initial; writing-mode: ini=
+tial; zoom: initial; accent-color: initial; place-content: initial; place-i=
+tems: initial; place-self: initial; alignment-baseline: initial; animation:=
+ initial; app-region: initial; appearance: initial; aspect-ratio: initial; =
+backdrop-filter: initial; backface-visibility: initial; background: initial=
+; background-blend-mode: initial; baseline-shift: initial; block-size: init=
+ial; border-block: initial; border: initial; border-radius: initial; border=
+-collapse: initial; border-end-end-radius: initial; border-end-start-radius=
+: initial; border-inline: initial; border-start-end-radius: initial; border=
+-start-start-radius: initial; inset: initial; box-shadow: initial; box-sizi=
+ng: initial; break-after: initial; break-before: initial; break-inside: ini=
+tial; buffered-rendering: initial; caption-side: initial; caret-color: init=
+ial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial;=
+ color-interpolation: initial; color-interpolation-filters: initial; color-=
+rendering: initial; color-scheme: initial; columns: initial; column-fill: i=
+nitial; gap: initial; column-rule: initial; column-span: initial; contain: =
+initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: ini=
+tial; contain-intrinsic-inline-size: initial; content: initial; content-vis=
+ibility: initial; counter-increment: initial; counter-reset: initial; count=
+er-set: initial; cursor: initial; cx: initial; cy: initial; d: initial; dis=
+play: initial; dominant-baseline: initial; empty-cells: initial; fill: init=
+ial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: init=
+ial; flex-flow: initial; float: initial; flood-color: initial; flood-opacit=
+y: initial; grid: initial; grid-area: initial; height: initial; hyphens: in=
+itial; image-orientation: initial; image-rendering: initial; inline-size: i=
+nitial; inset-block: initial; inset-inline: initial; isolation: initial; le=
+tter-spacing: initial; lighting-color: initial; line-break: initial; list-s=
+tyle: initial; margin-block: initial; margin: initial; margin-inline: initi=
+al; marker: initial; mask: initial; mask-type: initial; max-block-size: ini=
+tial; max-height: initial; max-inline-size: initial; max-width: initial; mi=
+n-block-size: initial; min-height: initial; min-inline-size: initial; min-w=
+idth: initial; mix-blend-mode: initial; object-fit: initial; object-positio=
+n: initial; offset: initial; opacity: initial; order: initial; origin-trial=
+-test-property: initial; orphans: initial; outline: initial; outline-offset=
+: initial; overflow-anchor: initial; overflow-clip-margin: initial; overflo=
+w-wrap: initial; overflow: initial; overscroll-behavior-block: initial; ove=
+rscroll-behavior-inline: initial; overscroll-behavior: initial; padding-blo=
+ck: initial; padding: initial; padding-inline: initial; page: initial; page=
+-orientation: initial; paint-order: initial; perspective: initial; perspect=
+ive-origin: initial; pointer-events: initial; position: absolute; quotes: i=
+nitial; r: initial; resize: initial; ruby-position: initial; rx: initial; r=
+y: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-=
+margin: initial; scroll-margin-inline: initial; scroll-padding-block: initi=
+al; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-al=
+ign: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scrollb=
+ar-gutter: initial; shape-image-threshold: initial; shape-margin: initial; =
+shape-outside: initial; shape-rendering: initial; size: initial; speak: ini=
+tial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-d=
+asharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; str=
+oke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial;=
+ stroke-width: initial; tab-size: initial; table-layout: initial; text-alig=
+n: initial; text-align-last: initial; text-anchor: initial; text-combine-up=
+right: initial; text-decoration: initial; text-decoration-skip-ink: initial=
+; text-emphasis: initial; text-emphasis-position: initial; text-indent: ini=
+tial; text-overflow: initial; text-shadow: initial; text-size-adjust: initi=
+al; text-transform: initial; text-underline-offset: initial; text-underline=
+-position: initial; touch-action: initial; transform: initial; transform-bo=
+x: initial; transform-origin: initial; transform-style: initial; transition=
+: initial; user-select: initial; vector-effect: initial; vertical-align: in=
+itial; visibility: initial; border-spacing: initial; -webkit-border-image: =
+initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial;=
+ -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ord=
+inal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial=
+; -webkit-box-reflect: initial; -webkit-highlight: initial; -webkit-hyphena=
+te-character: initial; -webkit-line-break: initial; -webkit-line-clamp: ini=
+tial; -webkit-mask-box-image: initial; -webkit-mask: initial; -webkit-mask-=
+composite: initial; -webkit-perspective-origin-x: initial; -webkit-perspect=
+ive-origin-y: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ord=
+ering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color=
+: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effec=
+t: initial; -webkit-text-fill-color: initial; -webkit-text-security: initia=
+l; -webkit-text-stroke: initial; -webkit-transform-origin-x: initial; -webk=
+it-transform-origin-y: initial; -webkit-transform-origin-z: initial; -webki=
+t-user-drag: initial; -webkit-user-modify: initial; white-space: initial; w=
+idows: initial; width: initial; will-change: initial; word-break: initial; =
+word-spacing: initial; x: initial; y: initial; z-index: 2147483647;"><link =
+rel=3D"stylesheet" href=3D"chrome-extension://gpaiobkfhnonedkhhfjpmhdalgeoe=
+bfa/fonts/fabric-icons.css"><div style=3D"all: initial;"><template shadowmo=
+de=3D"open"><div role=3D"status" aria-live=3D"polite" id=3D"ms-squiggle-too=
+ltip" style=3D"overflow-x: hidden;"></div></template></div></div></div></ed=
+itor-card></html>
+------MultipartBoundary--e7MTsUS0JP6L84TcKVrHi3xpVmheCGoGaav0oMrIrW----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d6b5a7b0-ef71-4179-bf11-7dad479f150f@mhtml.blink
+
+@charset "utf-8";
+
+@keyframes editorbx-css-0 {=20
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes editorbx-css-1 {=20
+  0% { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}
+
+@keyframes editorbx-css-2 {=20
+  0% { transform: translate3d(-10px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+
+@keyframes editorbx-css-3 {=20
+  0% { transform: translate3d(-20px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+
+@keyframes editorbx-css-4 {=20
+  0% { transform: translate3d(-40px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+
+@keyframes editorbx-css-5 {=20
+  0% { transform: translate3d(-400px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+
+@keyframes editorbx-css-6 {=20
+  0% { transform: translate3d(10px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+
+@keyframes editorbx-css-7 {=20
+  0% { transform: translate3d(20px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+
+@keyframes editorbx-css-8 {=20
+  0% { transform: translate3d(40px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+
+@keyframes editorbx-css-9 {=20
+  0% { transform: translate3d(400px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+
+@keyframes editorbx-css-10 {=20
+  0% { transform: translate3d(0px, 10px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+
+@keyframes editorbx-css-11 {=20
+  0% { transform: translate3d(0px, 20px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+
+@keyframes editorbx-css-12 {=20
+  0% { transform: translate3d(0px, -10px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+
+@keyframes editorbx-css-13 {=20
+  0% { transform: translate3d(0px, -20px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+
+@keyframes editorbx-css-14 {=20
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(10px, 0px, 0px); }
+}
+
+@keyframes editorbx-css-15 {=20
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(20px, 0px, 0px); }
+}
+
+@keyframes editorbx-css-16 {=20
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(40px, 0px, 0px); }
+}
+
+@keyframes editorbx-css-17 {=20
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(400px, 0px, 0px); }
+}
+
+@keyframes editorbx-css-18 {=20
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(-10px, 0px, 0px); }
+}
+
+@keyframes editorbx-css-19 {=20
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(-20px, 0px, 0px); }
+}
+
+@keyframes editorbx-css-20 {=20
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(-40px, 0px, 0px); }
+}
+
+@keyframes editorbx-css-21 {=20
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(-400px, 0px, 0px); }
+}
+
+@keyframes editorbx-css-22 {=20
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(0px, -10px, 0px); }
+}
+
+@keyframes editorbx-css-23 {=20
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(0px, -20px, 0px); }
+}
+
+@keyframes editorbx-css-24 {=20
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(0px, 10px, 0px); }
+}
+
+@keyframes editorbx-css-25 {=20
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(0px, 20px, 0px); }
+}
+
+@keyframes editorbx-css-26 {=20
+  0% { transform: scale3d(0.98, 0.98, 1); }
+  100% { transform: scale3d(1, 1, 1); }
+}
+
+@keyframes editorbx-css-27 {=20
+  0% { transform: scale3d(1, 1, 1); }
+  100% { transform: scale3d(0.98, 0.98, 1); }
+}
+
+@keyframes editorbx-css-28 {=20
+  0% { transform: scale3d(1.03, 1.03, 1); }
+  100% { transform: scale3d(1, 1, 1); }
+}
+
+@keyframes editorbx-css-29 {=20
+  0% { transform: scale3d(1, 1, 1); }
+  100% { transform: scale3d(1.03, 1.03, 1); }
+}
+
+@keyframes editorbx-css-30 {=20
+  0% { transform: rotateZ(0deg); }
+  100% { transform: rotateZ(90deg); }
+}
+
+@keyframes editorbx-css-31 {=20
+  0% { transform: rotateZ(0deg); }
+  100% { transform: rotateZ(-90deg); }
+}
+
+@font-face { font-family: "Leelawadee UI Web"; src: url("https://static2.sh=
+arepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui=
+-light.woff2") format("woff2"), url("https://static2.sharepointonline.com/f=
+iles/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-light.woff") format=
+("woff"); font-weight: 100; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Leelawadee UI Web"; src: url("https://static2.sh=
+arepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui=
+-semilight.woff2") format("woff2"), url("https://static2.sharepointonline.c=
+om/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff"=
+) format("woff"); font-weight: 300; font-style: normal; font-display: swap;=
+ }
+
+@font-face { font-family: "Leelawadee UI Web"; src: url("https://static2.sh=
+arepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui=
+-regular.woff2") format("woff2"), url("https://static2.sharepointonline.com=
+/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-regular.woff") fo=
+rmat("woff"); font-weight: 400; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Leelawadee UI Web"; src: url("https://static2.sh=
+arepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui=
+-semibold.woff2") format("woff2"), url("https://static2.sharepointonline.co=
+m/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semibold.woff") =
+format("woff"); font-weight: 600; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Leelawadee UI Web"; src: url("https://static2.sh=
+arepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui=
+-bold.woff2") format("woff2"), url("https://static2.sharepointonline.com/fi=
+les/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-bold.woff") format("=
+woff"); font-weight: 700; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Arabic)"; src: url("https://static=
+2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-lig=
+ht.woff2") format("woff2"), url("https://static2.sharepointonline.com/files=
+/fabric/assets/fonts/segoeui-arabic/segoeui-light.woff") format("woff"); fo=
+nt-weight: 100; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Arabic)"; src: url("https://static=
+2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-sem=
+ilight.woff2") format("woff2"), url("https://static2.sharepointonline.com/f=
+iles/fabric/assets/fonts/segoeui-arabic/segoeui-semilight.woff") format("wo=
+ff"); font-weight: 300; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Arabic)"; src: url("https://static=
+2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-reg=
+ular.woff2") format("woff2"), url("https://static2.sharepointonline.com/fil=
+es/fabric/assets/fonts/segoeui-arabic/segoeui-regular.woff") format("woff")=
+; font-weight: 400; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Arabic)"; src: url("https://static=
+2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-sem=
+ibold.woff2") format("woff2"), url("https://static2.sharepointonline.com/fi=
+les/fabric/assets/fonts/segoeui-arabic/segoeui-semibold.woff") format("woff=
+"); font-weight: 600; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Arabic)"; src: url("https://static=
+2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-bol=
+d.woff2") format("woff2"), url("https://static2.sharepointonline.com/files/=
+fabric/assets/fonts/segoeui-arabic/segoeui-bold.woff") format("woff"); font=
+-weight: 700; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Cyrillic)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui=
+-light.woff2") format("woff2"), url("https://static2.sharepointonline.com/f=
+iles/fabric/assets/fonts/segoeui-cyrillic/segoeui-light.woff") format("woff=
+"); font-weight: 100; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Cyrillic)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui=
+-semilight.woff2") format("woff2"), url("https://static2.sharepointonline.c=
+om/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semilight.woff") form=
+at("woff"); font-weight: 300; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Cyrillic)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui=
+-regular.woff2") format("woff2"), url("https://static2.sharepointonline.com=
+/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-regular.woff") format("=
+woff"); font-weight: 400; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Cyrillic)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui=
+-semibold.woff2") format("woff2"), url("https://static2.sharepointonline.co=
+m/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semibold.woff") format=
+("woff"); font-weight: 600; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Cyrillic)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui=
+-bold.woff2") format("woff2"), url("https://static2.sharepointonline.com/fi=
+les/fabric/assets/fonts/segoeui-cyrillic/segoeui-bold.woff") format("woff")=
+; font-weight: 700; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (East European)"; src: url("https:/=
+/static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropea=
+n/segoeui-light.woff2") format("woff2"), url("https://static2.sharepointonl=
+ine.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-light.woff")=
+ format("woff"); font-weight: 100; font-style: normal; font-display: swap; =
+}
+
+@font-face { font-family: "Segoe UI Web (East European)"; src: url("https:/=
+/static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropea=
+n/segoeui-semilight.woff2") format("woff2"), url("https://static2.sharepoin=
+tonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-semiligh=
+t.woff") format("woff"); font-weight: 300; font-style: normal; font-display=
+: swap; }
+
+@font-face { font-family: "Segoe UI Web (East European)"; src: url("https:/=
+/static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropea=
+n/segoeui-regular.woff2") format("woff2"), url("https://static2.sharepointo=
+nline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-regular.wo=
+ff") format("woff"); font-weight: 400; font-style: normal; font-display: sw=
+ap; }
+
+@font-face { font-family: "Segoe UI Web (East European)"; src: url("https:/=
+/static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropea=
+n/segoeui-semibold.woff2") format("woff2"), url("https://static2.sharepoint=
+online.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-semibold.=
+woff") format("woff"); font-weight: 600; font-style: normal; font-display: =
+swap; }
+
+@font-face { font-family: "Segoe UI Web (East European)"; src: url("https:/=
+/static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropea=
+n/segoeui-bold.woff2") format("woff2"), url("https://static2.sharepointonli=
+ne.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-bold.woff") f=
+ormat("woff"); font-weight: 700; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Greek)"; src: url("https://static2=
+.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-light=
+.woff2") format("woff2"), url("https://static2.sharepointonline.com/files/f=
+abric/assets/fonts/segoeui-greek/segoeui-light.woff") format("woff"); font-=
+weight: 100; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Greek)"; src: url("https://static2=
+.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-semil=
+ight.woff2") format("woff2"), url("https://static2.sharepointonline.com/fil=
+es/fabric/assets/fonts/segoeui-greek/segoeui-semilight.woff") format("woff"=
+); font-weight: 300; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Greek)"; src: url("https://static2=
+.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-regul=
+ar.woff2") format("woff2"), url("https://static2.sharepointonline.com/files=
+/fabric/assets/fonts/segoeui-greek/segoeui-regular.woff") format("woff"); f=
+ont-weight: 400; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Greek)"; src: url("https://static2=
+.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-semib=
+old.woff2") format("woff2"), url("https://static2.sharepointonline.com/file=
+s/fabric/assets/fonts/segoeui-greek/segoeui-semibold.woff") format("woff");=
+ font-weight: 600; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Greek)"; src: url("https://static2=
+.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-bold.=
+woff2") format("woff2"), url("https://static2.sharepointonline.com/files/fa=
+bric/assets/fonts/segoeui-greek/segoeui-bold.woff") format("woff"); font-we=
+ight: 700; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Hebrew)"; src: url("https://static=
+2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-lig=
+ht.woff2") format("woff2"), url("https://static2.sharepointonline.com/files=
+/fabric/assets/fonts/segoeui-hebrew/segoeui-light.woff") format("woff"); fo=
+nt-weight: 100; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Hebrew)"; src: url("https://static=
+2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-sem=
+ilight.woff2") format("woff2"), url("https://static2.sharepointonline.com/f=
+iles/fabric/assets/fonts/segoeui-hebrew/segoeui-semilight.woff") format("wo=
+ff"); font-weight: 300; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Hebrew)"; src: url("https://static=
+2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-reg=
+ular.woff2") format("woff2"), url("https://static2.sharepointonline.com/fil=
+es/fabric/assets/fonts/segoeui-hebrew/segoeui-regular.woff") format("woff")=
+; font-weight: 400; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Hebrew)"; src: url("https://static=
+2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-sem=
+ibold.woff2") format("woff2"), url("https://static2.sharepointonline.com/fi=
+les/fabric/assets/fonts/segoeui-hebrew/segoeui-semibold.woff") format("woff=
+"); font-weight: 600; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Hebrew)"; src: url("https://static=
+2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-bol=
+d.woff2") format("woff2"), url("https://static2.sharepointonline.com/files/=
+fabric/assets/fonts/segoeui-hebrew/segoeui-bold.woff") format("woff"); font=
+-weight: 700; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Vietnamese)"; src: url("https://st=
+atic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/seg=
+oeui-light.woff2") format("woff2"), url("https://static2.sharepointonline.c=
+om/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-light.woff") format=
+("woff"); font-weight: 100; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Vietnamese)"; src: url("https://st=
+atic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/seg=
+oeui-semilight.woff2") format("woff2"), url("https://static2.sharepointonli=
+ne.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-semilight.woff"=
+) format("woff"); font-weight: 300; font-style: normal; font-display: swap;=
+ }
+
+@font-face { font-family: "Segoe UI Web (Vietnamese)"; src: url("https://st=
+atic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/seg=
+oeui-regular.woff2") format("woff2"), url("https://static2.sharepointonline=
+.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-regular.woff") fo=
+rmat("woff"); font-weight: 400; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Vietnamese)"; src: url("https://st=
+atic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/seg=
+oeui-semibold.woff2") format("woff2"), url("https://static2.sharepointonlin=
+e.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-semibold.woff") =
+format("woff"); font-weight: 600; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Vietnamese)"; src: url("https://st=
+atic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/seg=
+oeui-bold.woff2") format("woff2"), url("https://static2.sharepointonline.co=
+m/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-bold.woff") format("=
+woff"); font-weight: 700; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (West European)"; src: local("Segoe=
+ UI Light"), url("https://static2.sharepointonline.com/files/fabric/assets/=
+fonts/segoeui-westeuropean/segoeui-light.woff2") format("woff2"), url("http=
+s://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuro=
+pean/segoeui-light.woff") format("woff"); font-weight: 100; font-style: nor=
+mal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (West European)"; src: local("Segoe=
+ UI SemiLight"), url("https://static2.sharepointonline.com/files/fabric/ass=
+ets/fonts/segoeui-westeuropean/segoeui-semilight.woff2") format("woff2"), u=
+rl("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-=
+westeuropean/segoeui-semilight.woff") format("woff"); font-weight: 300; fon=
+t-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (West European)"; src: local("Segoe=
+ UI"), url("https://static2.sharepointonline.com/files/fabric/assets/fonts/=
+segoeui-westeuropean/segoeui-regular.woff2") format("woff2"), url("https://=
+static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean=
+/segoeui-regular.woff") format("woff"); font-weight: 400; font-style: norma=
+l; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (West European)"; src: local("Segoe=
+ UI SemiBold"), url("https://static2.sharepointonline.com/files/fabric/asse=
+ts/fonts/segoeui-westeuropean/segoeui-semibold.woff2") format("woff2"), url=
+("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-we=
+steuropean/segoeui-semibold.woff") format("woff"); font-weight: 600; font-s=
+tyle: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (West European)"; src: local("Segoe=
+ UI Bold"), url("https://static2.sharepointonline.com/files/fabric/assets/f=
+onts/segoeui-westeuropean/segoeui-bold.woff2") format("woff2"), url("https:=
+//static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeurope=
+an/segoeui-bold.woff") format("woff"); font-weight: 700; font-style: normal=
+; font-display: swap; }
+
+@font-face { src: url("https://static2.sharepointonline.com/files/fabric/as=
+sets/fonts/selawik/selawik-light.woff2") format("woff2"), url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-light.wo=
+ff") format("woff"); font-weight: 100; font-style: normal; font-display: sw=
+ap; }
+
+@font-face { src: url("https://static2.sharepointonline.com/files/fabric/as=
+sets/fonts/selawik/selawik-semilight.woff2") format("woff2"), url("https://=
+static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-semi=
+light.woff") format("woff"); font-weight: 300; font-style: normal; font-dis=
+play: swap; }
+
+@font-face { src: url("https://static2.sharepointonline.com/files/fabric/as=
+sets/fonts/selawik/selawik-regular.woff2") format("woff2"), url("https://st=
+atic2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-regula=
+r.woff") format("woff"); font-weight: 400; font-style: normal; font-display=
+: swap; }
+
+@font-face { src: url("https://static2.sharepointonline.com/files/fabric/as=
+sets/fonts/selawik/selawik-semibold.woff2") format("woff2"), url("https://s=
+tatic2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-semib=
+old.woff") format("woff"); font-weight: 600; font-style: normal; font-displ=
+ay: swap; }
+
+@font-face { src: url("https://static2.sharepointonline.com/files/fabric/as=
+sets/fonts/selawik/selawik-bold.woff2") format("woff2"), url("https://stati=
+c2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-bold.woff=
+") format("woff"); font-weight: 700; font-style: normal; font-display: swap=
+; }
+
+@font-face { font-family: "Segoe UI Web (Armenian)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui=
+-light.woff2") format("woff2"), url("https://static2.sharepointonline.com/f=
+iles/fabric/assets/fonts/segoeui-armenian/segoeui-light.woff") format("woff=
+"); font-weight: 100; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Armenian)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui=
+-semilight.woff2") format("woff2"), url("https://static2.sharepointonline.c=
+om/files/fabric/assets/fonts/segoeui-armenian/segoeui-semilight.woff") form=
+at("woff"); font-weight: 300; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Armenian)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui=
+-regular.woff2") format("woff2"), url("https://static2.sharepointonline.com=
+/files/fabric/assets/fonts/segoeui-armenian/segoeui-regular.woff") format("=
+woff"); font-weight: 400; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Armenian)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui=
+-semibold.woff2") format("woff2"), url("https://static2.sharepointonline.co=
+m/files/fabric/assets/fonts/segoeui-armenian/segoeui-semibold.woff") format=
+("woff"); font-weight: 600; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Armenian)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui=
+-bold.woff2") format("woff2"), url("https://static2.sharepointonline.com/fi=
+les/fabric/assets/fonts/segoeui-armenian/segoeui-bold.woff") format("woff")=
+; font-weight: 700; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Georgian)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui=
+-light.woff2") format("woff2"), url("https://static2.sharepointonline.com/f=
+iles/fabric/assets/fonts/segoeui-georgian/segoeui-light.woff") format("woff=
+"); font-weight: 100; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Georgian)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui=
+-semilight.woff2") format("woff2"), url("https://static2.sharepointonline.c=
+om/files/fabric/assets/fonts/segoeui-georgian/segoeui-semilight.woff") form=
+at("woff"); font-weight: 300; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Georgian)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui=
+-regular.woff2") format("woff2"), url("https://static2.sharepointonline.com=
+/files/fabric/assets/fonts/segoeui-georgian/segoeui-regular.woff") format("=
+woff"); font-weight: 400; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Georgian)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui=
+-semibold.woff2") format("woff2"), url("https://static2.sharepointonline.co=
+m/files/fabric/assets/fonts/segoeui-georgian/segoeui-semibold.woff") format=
+("woff"); font-weight: 600; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Segoe UI Web (Georgian)"; src: url("https://stat=
+ic2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui=
+-bold.woff2") format("woff2"), url("https://static2.sharepointonline.com/fi=
+les/fabric/assets/fonts/segoeui-georgian/segoeui-bold.woff") format("woff")=
+; font-weight: 700; font-style: normal; font-display: swap; }
+
+@font-face { font-family: "Leelawadee UI Web"; src: url("https://static2.sh=
+arepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui=
+-semilight.woff2") format("woff2"), url("https://static2.sharepointonline.c=
+om/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff"=
+) format("woff"); font-weight: 100; font-style: normal; font-display: swap;=
+ }
+
+@font-face { font-family: "Leelawadee UI Web"; src: url("https://static2.sh=
+arepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui=
+-bold.woff2") format("woff2"), url("https://static2.sharepointonline.com/fi=
+les/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-bold.woff") format("=
+woff"); font-weight: 600; font-style: normal; font-display: swap; }
+
+.editorbx-css-32 { overflow: hidden !important; }
+
+.editorbx-css-33 { animation-name: editorbx-css-0, editorbx-css-10; animati=
+on-duration: 0.367s; animation-timing-function: cubic-bezier(0.1, 0.9, 0.2,=
+ 1); animation-fill-mode: both; }
+
+.editorbx-css-34 { animation-name: editorbx-css-0, editorbx-css-12; animati=
+on-duration: 0.367s; animation-timing-function: cubic-bezier(0.1, 0.9, 0.2,=
+ 1); animation-fill-mode: both; }
+
+.editorbx-css-35 { animation-name: editorbx-css-0, editorbx-css-6; animatio=
+n-duration: 0.367s; animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, =
+1); animation-fill-mode: both; }
+
+.editorbx-css-36 { animation-name: editorbx-css-0, editorbx-css-2; animatio=
+n-duration: 0.367s; animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, =
+1); animation-fill-mode: both; }
+
+.editorbx-root-37 { display: inline-block; }
+
+.editorbx-placeholder-38 { width: 1em; }
+
+.editorbx-image-39 { overflow: hidden; }
+------MultipartBoundary--e7MTsUS0JP6L84TcKVrHi3xpVmheCGoGaav0oMrIrW----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/javascript/class-notes/js04_loops/style.css
+
+@charset "utf-8";
+
+body { margin: 0px; text-align: center; font-family: tahoma; height: 100vh;=
+ background: linear-gradient(to left top, rgb(46, 97, 156), rgb(192, 206, 2=
+38)); }
+------MultipartBoundary--e7MTsUS0JP6L84TcKVrHi3xpVmheCGoGaav0oMrIrW----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://clarusway.com/wp-content/uploads/2021/06/CLARUSWAY_LOGO.png
+
+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
+
+------MultipartBoundary--e7MTsUS0JP6L84TcKVrHi3xpVmheCGoGaav0oMrIrW----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://gpaiobkfhnonedkhhfjpmhdalgeoebfa/fonts/fabric-icons.css
+
+@charset "utf-8";
+
+@font-face { font-family: FabricMDL2Icons; src: url("fabric-icons.woff") fo=
+rmat("woff"); }
+------MultipartBoundary--e7MTsUS0JP6L84TcKVrHi3xpVmheCGoGaav0oMrIrW------

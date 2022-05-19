@@ -1,0 +1,49 @@
+
+.body {
+    margin:auto;
+    padding: 0;
+    
+}
+
+
+
+.container {
+
+
+    background-color:blue;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+   
+   /*  margin: 20px;  ve ya bu şekilde ayrı ayrı da yazılır*/
+  /* margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px; 
+    float: left;*/ 
+    /* margin saat yönünde hareket eder şu şekilde kısa da yazılır:
+    margin:(yukarı)0 (sağ) auto (aşağı)0 (sol) l;
+    veya margin:(yukarıve aşağı) 0 sağ ve sol 5; gibi 
+    */
+
+
+}
+
+.box1 {
+    background-color: yellow;
+    width: 200;
+    height: 50px;
+    float:left;
+}
+.box2 {
+    background-color: purple;
+    width: 200;
+    height: 60px;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+
